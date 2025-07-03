@@ -1,0 +1,44 @@
+.products-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 950px;
+  background: #fff;
+  display: flex;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.section {
+  flex: 1;
+  padding: 0 20px;
+  border-right: 1px solid #eee;
+}
+
+.right-section {
+  border-right: none;
+}
+
+.sub-section h5 {
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #444;
+}
+
+.sub-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sub-section li {
+  padding: 4px 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.sub-section li:hover {
+  color: #007aff;
+}

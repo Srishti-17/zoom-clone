@@ -1,0 +1,38 @@
+.solutions-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 200px; /* adjust if needed */
+  width: 600px;
+  display: flex;
+  background: white;
+  padding: 20px 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+  z-index: 10;
+}
+
+.solution-category {
+  flex: 1;
+  margin-right: 30px;
+}
+
+.solution-category h4 {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.solution-category ul {
+  list-style: none;
+  padding: 0;
+}
+
+.solution-category li {
+  font-size: 14px;
+  padding: 6px 0;
+  cursor: pointer;
+}
+
+.solution-category li:hover {
+  color: #007aff;
+}

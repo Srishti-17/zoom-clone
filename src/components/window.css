@@ -1,0 +1,71 @@
+.window-dropdown {
+  position: absolute;
+  top: 70px;
+  right: 0;
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.window-dropdown h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.icon-item {
+  text-align: center;
+  font-size: 12px;
+  color: #333;
+}
+
+.icon-circle {
+  background: #005eff;
+  color: white;
+  font-size: 18px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 5px;
+}
+
+.window-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn-outline,
+.btn-filled {
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid #005eff;
+  color: #005eff;
+}
+
+.btn-filled {
+  background: #005eff;
+  color: white;
+  border: none;
+}

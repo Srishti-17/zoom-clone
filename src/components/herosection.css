@@ -1,0 +1,96 @@
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px;
+  background-color: #f5f7fa;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.hero-left {
+  width: 50%;
+}
+
+.hero-left h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+.hero-left p {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-blue {
+  background-color: #0e5efb;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-blue:hover {
+  background-color: #094de3;
+}
+
+.btn-link {
+  background: none;
+  border: none;
+  color: #0e5efb;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hero-right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.icons-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 24px;
+}
+
+.big-icon {
+  font-size: 32px;
+}
+
+.video-frame {
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  min-width: 350px;
+}
+
+.video-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.person {
+  background-color: #222;
+  padding: 20px;
+  flex: 1;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.person.big {
+  width: 100%;
+  margin-top: 10px;
+}
